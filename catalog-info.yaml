@@ -8,7 +8,3 @@ spec:
   type: other
   lifecycle: unknown
   owner: matei
-catalog:
-  locations:
-    - type: url
-      target: https://github.com/happymatei/my-poc/blob/backstage-integration/template.yaml
