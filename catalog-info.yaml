@@ -8,10 +8,7 @@ spec:
   type: other
   lifecycle: unknown
   owner: matei
-  steps:
-    - id: publish
-      name: Publish
-      action: publish:github
-      input:
-        repoUrl: https://github.com/happymatei/my-poc/backstage-integration
-        repoVisibility: public
+catalog:
+  locations:
+    - type: url
+      target: https://github.com/happymatei/my-poc/blob/backstage-integration/template.yaml
