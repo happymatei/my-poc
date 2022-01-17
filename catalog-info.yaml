@@ -13,5 +13,5 @@ spec:
       name: Publish
       action: publish:github
       input:
-        repoUrl: https://github.com/happymatei/my-poc/edit/backstage-integration
+        repoUrl: https://github.com/happymatei/my-poc/backstage-integration
         repoVisibility: public
