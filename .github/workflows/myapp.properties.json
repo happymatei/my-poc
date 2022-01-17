@@ -1,0 +1,13 @@
+{
+    "name": "My first echo",
+    "description": "My first echo workflow.",
+    "iconName": "example-icon",
+    "categories": [
+        "Go"
+    ],
+    "filePatterns": [
+        "package.json$",
+        "^Dockerfile",
+        ".*\\.md$"
+    ]
+}
