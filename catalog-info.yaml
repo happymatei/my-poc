@@ -8,10 +8,10 @@ spec:
   type: other
   lifecycle: unknown
   owner: matei
-steps:
-  - id: publish
-    name: Publish
-    action: publish:github
-    input:
-      repoUrl: '{{ parameters.repoUrl }}'
-      repoVisibility: public
+  steps:
+    - id: publish
+      name: Publish
+      action: publish:github
+      input:
+        repoUrl: '{{ parameters.repoUrl }}'
+        repoVisibility: public
