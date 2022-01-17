@@ -1,0 +1,10 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: my-poc
+  annotations:
+    github.com/project-slug: happymatei/my-poc
+spec:
+  type: service
+  lifecycle: unknown
+  owner: matei

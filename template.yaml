@@ -1,0 +1,20 @@
+apiVersion: scaffolder.backstage.io/v1beta3
+kind: Template
+# some metadata about the template itself
+metadata:
+  name: poc
+  title: POC template
+  description: POC template demo
+spec:
+  owner: happymatei/my-poc
+  type: service
+
+  # here's the steps that are executed in series in the scaffolder backend
+  steps:
+    - id: dispatch-action
+      name: Dispatch action
+      action: github:actions:dispatch
+      input:
+        repoUrl: github.com?repo=my-poc&owner=happymatei
+        workflowId: .github/workflows/main.yml
+        branchOrTagName: backstage-integration
