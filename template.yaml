@@ -16,5 +16,5 @@ spec:
       action: github:actions:dispatch
       input:
         repoUrl: github.com?repo=my-poc&owner=happymatei
-        workflowId: main.yaml
+        workflowId: .github/workflows/main.yml
         branchOrTagName: backstage-integration
